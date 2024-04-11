@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    color: #FFE4EC;
+}
+
+.main-bg{
+    padding: 0;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.fundo{
+    background: url(../img/fundo.jpg) center center/cover;
+    min-height: 755px;
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    background-attachment: fixed;
+}
+
+
+a{
+    max-width: 400px;
+    display: flex;
+    margin-top: 10px;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+.direitos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    font-size: 14px;
+    background-color: #FFE4EC;
+}
+
+.agendamentos_geral{
+    background: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    padding-bottom: 100px;
+    gap: 100px;
+}
+
+.agendamentos_titulo{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.agendamentos_titulo p{
+    color: #000000;
+}
+
+.borda{
+    width: 460px;
+    display: block;
+    margin-top: 70px;
+    color: #d68f8f;
+    padding: 20px;
+    letter-spacing: 3px;
+
+}
+
+.borda p{
+    background: rgba(243, 214, 227, 0.8);
+    border-radius: 5px;
+}
+
+.faça_seu_agendamento{
+    background-color: rgba(0, 0, 0, 0.73);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 38px;
+    color: rgba(198, 198, 198, 0.84);
+    justify-content: space-around;
+    padding: 40px  80px;
+    width: 100%;
+    height: 500px;
+}
+
+.texto_agendamento{
+    background-color: rgba(0, 0, 0, 0.73);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 36px;
+    color: rgba(198, 198, 198, 0.84);
+    text-align: center;
+}
+
+.texto_agendamento > form{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item > label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.form-item > label::after{
+    content: "*";
+    margin-left: 5px;
+    color: red;
+}
+
+.form-item label{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.form-item > input{
+    background: rgba(243, 214, 227, 0.8);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(243, 214, 227, 0.8);
+}
+
+.form-item2{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item2 > label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.form-item2 > label::after{
+    content: "*";
+    margin-left: 5px;
+    color: red;
+}
+
+
+.form-item2 > input{
+    background: rgba(243, 214, 227, 0.8);
+    width: 100%;
+    padding: 20px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid rgba(243, 214, 227, 0.8);
+}
+
+.form-item2 textarea{
+    background: rgba(243, 214, 227, 0.8);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(243, 214, 227, 0.8);
+}
+
+.form-item2 label{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    color: #d29a9a;
+    font-size: 14;
+    width: 50px;
+}
+
+.form-itemb input{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    background: rgba(243, 214, 227, 0.8);
+    border-radius: 10px;
+    display: flex;
+    width: 100px;
+    font-size: 20px;
+    justify-content: center;
+    border: #ffffff solid 3px;
+}
+
+.quebradelinha{
+    height: 20px;
+}
+
+
+.form-itemh label {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+  }
+  
+  input,
+  label {
+    margin: 0.4rem 0;
+    border-radius: 5px;
+    padding: 8px;
+  }
+  
+
+.form-itemd input{
+    background: rgba(243, 214, 227, 0.8);
+}
+
+.form-itemd{
+    label {
+        display: block;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 14px;
+
+      }
+      
+      input,
+      label {
+        margin: 0.4rem 0;
+      }
+}
+
+.form-itemh input{
+    background: rgba(243, 214, 227, 0.8);
+}
+
+.icones{
+    max-width: 80px;
+}   
+
+.icons{
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.logo3 img{
+    max-width: 80px;
+    max-height: 80px;
+}

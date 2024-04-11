@@ -1,0 +1,47 @@
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 600px;
+}
+
+
+.navbar{
+    background-color: #FFE4EC;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 img{
+    width: 100px;
+    height: 100px;
+}
+
+.logo2 p{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.navLinks{
+    display: flex;
+}
+
+a{
+    max-width: 400px;
+    display: flex;
+    margin-top: 10px;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    letter-spacing: 3px;
+}

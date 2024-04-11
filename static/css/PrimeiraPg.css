@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    color: #FFE4EC;
+}
+.main-bg{
+    padding: 0;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.fundo{
+    background: url(../img/fundo.jpg) center center/cover;
+    min-height: 755px;
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    background-attachment: fixed;
+}
+
+.caixaCentro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 170px;
+    max-width: 900px;
+    font-size: 12px;
+    padding: 15px;
+    color: #000000;
+    background: rgba(243, 214, 227, 0.8);
+    border-radius: 10px;
+    text-align: justify;
+}
+a{
+    max-width: 400px;
+    display: flex;
+    margin-top: 10px;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+.direitos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    font-size: 14px;
+    background-color: #FFE4EC;
+    
+}
+
+.agend{
+    max-width: 800px;
+    display: flex;
+    margin-top: 30px;
+    padding-left: 755px;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+
+.agend a{
+    background: rgba(243, 214, 227, 0.8);
+    border-radius: 10px;
+    display: flex;
+    width: 325px;
+    white-space: nowrap;
+    border: 3px solid #FFE4EC;
+}
+
+.sobre_titulo{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.sobre_titulo h2{
+    color: #000000;
+}
+
+.tituloSobre{
+    display: flex;
+    justify-content: center;
+}
+
+.borda{
+    width: 460px;
+    display: block;
+    margin-top: 40px;
+    color: #d86464;
+    padding: 10px;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.borda h2{
+    font-size: 45px;
+    background-color:  rgba(243, 214, 227, 0.6);
+    padding: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.p{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 150px;
+    font-size: 15px;
+    padding: 30px;
+    color: #000000;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.icones{
+    max-width: 80px;
+}   
+
+.icons{
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.logo3 img{
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.textosSobre{
+    color: #000000;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 130px;
+    padding-right: 130px;
+    text-align: justify;
+    font-weight: 100;
+}
+
+.caixa{
+    padding-bottom: 170px;
+}
