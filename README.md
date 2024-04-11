@@ -4,3 +4,6 @@
 
 
 A ideia era fazermos um sistema que fosse um site para um Salão de Beleza, onde teria uma tela inicial sobre a empresa, uma tela com os serviços oferecidos e outra para realizar o agendamento de algum serviço.
+
+# Spoiler: 
+Não está terminado e nem funcionando. 
