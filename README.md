@@ -1,32 +1,3 @@
 # SalaoBeleza
 
-SalaoBeleza/             
-│
-├── Controller/            
-│   └── app.py
-│
-├── DAO/            
-│   ├── conexao.py
-│   └── script.sql
-│
-├── Model/  
-│   ├── agendamento.py
-│   ├── index.py
-│   └── servicos.py
-│
-├── static/                  
-    ├── css
-        ├── PrimeiraPg.css
-        ├── styleAgendamento.css
-        ├── styleNav.css
-        ├── styleServico.css
-        ├── styleSobre.css
-    ├── img  
-    └── js
-│
-├── View/            
-        ├── agendamentos.html
-        ├── index.html
-        ├── servicos.html
-│
-└── app.py
+<img width="112" alt="image" src="https://github.com/julia-015/SalaoBeleza/assets/136704485/e0e93e2b-108e-4a2c-b4c6-7300d6f8609a">
