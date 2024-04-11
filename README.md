@@ -25,7 +25,6 @@ SalaoBeleza/
     └── js
 │
 ├── View/            
-    ├── templates
         ├── agendamentos.html
         ├── index.html
         ├── servicos.html
